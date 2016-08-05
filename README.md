@@ -4,7 +4,7 @@
 ![enter image description here](./assets/sidebar.gif)
 
 ## 介绍
-> 通过控制台选择元素，实时在sidebar中展现这个元素所在的组件对象。
+> 通过控制台选择元素，实时在sidebar中展现这个元素所在的组件对象(展示加入中文说明，不改动真实$component实例)。
 > 通过这个对象，我们可以方便查看该组件实例的所有属性情况。
 > 全局环境实时更新$component指向该组件，可手动执行其中的函数。
 > sidebar中的属性支持修改，通过调用$component.$update()刷新视图。
