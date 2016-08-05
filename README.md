@@ -17,14 +17,15 @@
     this.$emit("$init");
     if( this.init ) this.init(this.data);
     env.isRunning = prevRunning;
-  // 加入下面代码
+
   // check if regular-devtools-sidebar-exist
+  // 加入下面3行代码
     if(window.__REGULAR_DEVTOOLS_SIDEBAR_GLOBAL_HOOK__ && this.group && this.group.children &&  this.group.children[0].node){
         var element = this.group.children[0].node();
         element.__regularUI = this;
     }
 ```
-2. clone 工程 -> 拉到本地 -> chrome://extensions/ -> 加载已解压的扩展程序
+2. fork 工程 -> 拉到本地 -> chrome://extensions/ -> 加载已解压的扩展程序
 
 ## 优点
 - regular 源码最小改动
