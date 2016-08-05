@@ -57,5 +57,5 @@
 
 
 ## more
-本插件及想法已@赵鑫晖(regular-devtools作者)有沟通，如其不能有效解决isolate问题，将可能采用本插件sidebar方式。
+本插件及想法已@赵鑫晖(regular-devtools作者)有交流，感谢对chrome插件开发的指导，如其不能有效解决isolate问题，将可能采用本插件sidebar方式。
 目前两插件都处于dev状态，欢迎大家有什么想法，加入我们。
