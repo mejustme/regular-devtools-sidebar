@@ -96,21 +96,5 @@ panels.elements.createSidebarPane(
         sidebar.setExpression( "(" + getPanelContents.toString() + ")()",'$component');
       });
 
-        var dev2backConnection = chrome.runtime.connect({
-          name: "dev2backConnection"
-        });
-
-        dev2backConnection.postMessage({  // dev -> back
-
-        });
-
-        dev2backConnection.onMessage.addListener(function(message) { // back -> dev
-          if (message.action === "update_data") {
-            sidebar.setExpression( "(" + getPanelContents.toString() + ")()",'$component');
-          }
-        });
-
     }
 );
-
-// devtoolsPage -> dev
