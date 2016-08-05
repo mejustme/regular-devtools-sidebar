@@ -32,6 +32,7 @@
 - regular 源码最小改动
 - 支持所有组件的查看：内嵌组件、isolate组件、inject组件
 - 控制台实时更新当前$component
+- 组件属性可修改，调用$component.$update()刷新视图
 - 属性配置中文说明，并添加了指令、过滤器、计算属性
 
 ## tips
