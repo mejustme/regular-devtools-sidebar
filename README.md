@@ -1,6 +1,6 @@
 # regular-devtool-sidebar
 
-##先上效果图
+## 先上效果图
 ![enter image description here](./assets/sidebar.gif)
 
 ## 介绍
@@ -37,8 +37,25 @@
 
 
 
-##下一步
+## 下一步
 - 增加一个panel, 展现各组件脏检查数量，以及脏检查时间与性能瓶颈
 - 增加一个panel，可视化展现组件继承关系
-- 增加一个panel, 列表工程中的可以命令，直接点击执行，如: npm run pscom /npm run cssall....
+- 增加一个panel, 可视化列表工程中的命令，点击直接执行，如: npm run pscom /npm run cssall....
 
+
+## 最后
+如果你觉得还想尝试新的 可以用用官方的[Regular-devtools](https://github.com/regularjs/regular-devtools)。
+
+它的问题是：
+- isolate 组件不能展现 `严重`
+- 不能直接定位到嵌套组件，需要手动层层查找
+- 目前只支持data数据展示 且 data属性不支持修改
+
+优点：
+- 视图更新后，数据展示自动更新 (本插件，要手动切换下sidebar)
+- 官方v0.4.5后直接支持，目前还未发布（对源码改动较大）
+
+
+## more
+本插件及想法已@赵鑫晖(regular-devtools作者)有沟通，如其不能有效解决isolate问题，将可能采用本插件sidebar方式。
+目前两插件都处于dev状态，欢迎大家有什么想法，加入我们。
