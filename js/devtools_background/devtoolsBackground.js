@@ -47,7 +47,7 @@ var getPanelContents = function () {
             if ( nameArr.indexOf(prop) != -1) {
               tempObj= {};
               for (key in constructor[prop]) {
-                tempObj[key] = constructor[prop][key];
+                tempObj[key] = constructor[prop][key]; // for in 同名取原型链近的
               }
               panelContents[cnameMap[prop]] = tempObj;
             }
