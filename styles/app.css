@@ -70,3 +70,7 @@ span.app-bck-task-close{
   margin-right: 5px;
   background-color: #d9534f;
 }
+
+.app-current-bck-gulp-tasks-list{
+  margin-bottom: 20px;
+}

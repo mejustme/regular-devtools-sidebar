@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Gulp-Devtools</title>
+  <title>npm-task</title>
   <link href="styles/app.css" rel="stylesheet" type="text/css"/>
   <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
   <script src="lib/socket.io.js"></script>
@@ -37,7 +37,7 @@
 </script>
 <script id="js-app-console-tmpl" type="text/template">
   <div>
-    <h5 class="app-page-header">output:</h5>
+    <h5 class="app-page-header">任务输出:</h5>
     <hr/>
     <div class="app-console js-app-console">
     </div>
@@ -50,7 +50,7 @@
 </script>
 <script id="js-app-bck-gulp-tasks-tmpl" type="text/template">
   <div class="app-current-bck-gulp-tasks-list">
-    <h5>Background tasks</h5>
+    <h5>正在运行的任务:</h5>
     <ul class="nav nav-pills nav-stacked app-bck-gulp-task-list js-app-bck-gulp-task-list">
     </ul>
   </div>
@@ -60,16 +60,15 @@
 </script>
 <script id="js-app-current-gulp-tasks-tmpl" type="text/template">
   <div class="current-gulp-tasks-list">
-    <h5>Gulp tasks</h5>
-    <input type="text" class="app-txt-filter js-app-txt-filter form-control" placeholder="Filter tasks: e.g. watch">
+    <input type="text" class="app-txt-filter js-app-txt-filter form-control" placeholder="查询">
     <ul class="nav nav-pills nav-stacked app-gulp-task-list js-app-gulp-task-list">
     </ul>
   </div>
 </script>
 <script id="js-app-action-btn-tmpl" type="text/template">
   <div class="js-app-action-buttons app-action-buttons">
-    <button class="btn btn-danger js-app-btn-kill-task app-btn-kill-task">Stop</button>
-    <button class="btn btn-info js-app-btn-bck-task app-btn-bck-task">Run in Background</button>
+    <button class="btn btn-danger js-app-btn-kill-task app-btn-kill-task">停止</button>
+    <button class="btn btn-info js-app-btn-bck-task app-btn-bck-task">后台运行</button>
   </div>
 </script>
 <script id="js-app-help-container-tmpl" type="text/template">
