@@ -24,8 +24,8 @@ div.app-sidebar {
 }
 
 .app-console {
-  color: #777;
-  font-size: 11px;
+  color: #2f1818;
+  font-size: 12px;
 }
 
 .app-action-buttons {
@@ -71,6 +71,21 @@ span.app-bck-task-close{
   background-color: #d9534f;
 }
 
+.app-main-container .glyphicon-remove:before{
+  content: "\e014";
+  font-size: 9px;
+  padding: 2px;
+  background: #f73232;
+  border-radius: 2px;
+  color: white;
+  margin-right: 3px;
+}
+
 .app-current-bck-gulp-tasks-list{
   margin-bottom: 20px;
+}
+
+.app-console .text-success{
+  color: #08af15;
+  font-size: 13px;
 }
