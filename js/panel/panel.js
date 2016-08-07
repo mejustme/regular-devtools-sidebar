@@ -196,7 +196,6 @@ $(function () {
                 this.model.unset({silent: true});
             }
         },
-        //TODO: this needs refactoring, only set the model once.
         onTaskRunning: function (data) {
             this.model.unset({silent: true});
             this.model.set(data, {silent: true});
