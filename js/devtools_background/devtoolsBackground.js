@@ -98,3 +98,10 @@ panels.elements.createSidebarPane(
 
     }
 );
+
+// chrome panel npm task
+chrome.devtools.panels.create(
+    "Tasks",
+    "assets/regular.png",
+    "panel.html"
+);
