@@ -8,7 +8,7 @@ chrome.runtime.onConnect.addListener(function(connection) {
 
     });
     return;
-  }
+
 
   if (connection.name === "front2backConnection") {
     front2backConnection = connection;

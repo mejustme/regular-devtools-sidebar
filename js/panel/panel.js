@@ -330,6 +330,7 @@ $(function () {
         };
 
 
+
         MyApp.socket = io.connect("http://localhost:9090");
 
         MyApp.socket.on('connect_failed', showHelpView);
