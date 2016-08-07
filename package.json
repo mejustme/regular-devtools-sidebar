@@ -1,0 +1,23 @@
+{
+  "name": "regular-devtools-sidebar",
+  "version": "0.1.2",
+  "description": "regular-devtools-sidebar",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mejustme/regular-devtools-sidebar.git"
+  },
+  "author": "mejustme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mejustme/regular-devtools-sidebar/issues"
+  },
+  "homepage": "https://github.com/mejustme/regular-devtools-sidebar#readme"
+}
