@@ -151,7 +151,7 @@ $(function () {
             this.context.listen(this, MyApp.AppEvents.RUN_TASK_IN_BACKGROUND, this.handleAddBackgroundTask);
         },
         handleAddBackgroundTask: function (ev) {
-            if (this.$(".js-app-bck-gulp-task-list li").length === 5) {
+            if (this.$(".js-app-bck-gulp-task-list li").length === 15) {
                 this.context.dispatch(MyApp.AppEvents.ON_BCK_TASK_LIMIT_EXCEED, {});
                 return;
             }
@@ -219,7 +219,7 @@ $(function () {
             this.$(".js-app-console").empty();
         },
         showLimitExceedWarning: function () {
-            this.$(".js-app-console").append("<div class='text-danger'>There are already 5 background running tasks, please stop one of them before adding a new one.</div>");
+            this.$(".js-app-console").append("<div class='text-danger'>已经有15个任务在后台运行了，请删掉不用的吧，否则通信太累了,你电脑也太累了</div>");
         },
         onTaskFinish: function (data) {
             this.$(".js-app-console").append("<div class='text-success'>" + data.message + "</div>");
@@ -229,7 +229,6 @@ $(function () {
             var self = this;
             this.context.pid = data.pid;
             _.each(paras, function (para) {
-                //TODO: this needs refactoring
                 var $div = $("<div>" + para + "</div>");
                 self.$(".js-app-console").append($div);
                 $('body,html').stop().animate({
