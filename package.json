@@ -1,6 +1,6 @@
 {
   "name": "regular-devtools-sidebar",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "regular-devtools-sidebar",
   "main": "index.js",
   "dependencies": {
