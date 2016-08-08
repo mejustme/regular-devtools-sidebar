@@ -43,7 +43,7 @@
 ## 下一步
 - 增加一个panel, 展现各组件脏检查数量，以及脏检查时间与性能瓶颈
 - 增加一个panel，可视化展现组件继承关系
-- 增加一个panel, 可视化列表工程中的命令，点击直接执行，如: npm run pscom /npm run cssall....
+- 增加一个panel, 可视化列表工程中的命令，点击直接执行，如: npm run pscom /npm run cssall....`已完成 npm install task-devtools -g`
 
 
 ## 最后
