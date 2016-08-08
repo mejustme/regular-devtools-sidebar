@@ -25,7 +25,8 @@
         element.__regularUI = this;
     }
 ```
-2. fork 工程 -> 拉到本地 -> chrome://extensions/ -> 加载已解压的扩展程序
+2. [chrome 应用商店下载](https://chrome.google.com/webstore/detail/regularjs%E7%BB%84%E4%BB%B6%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7-sidebar/edokagnjighamigibdkaflgddjnakhkj?hl=zh-CN)
+
 
 ## 优点
 - 通过左侧element选择，右侧实时更新其组件对象，方便高效
@@ -47,7 +48,7 @@
 
 
 ## 最后
-如果你觉得还想尝试新的 可以用用官方的[Regular-devtools](https://github.com/regularjs/regular-devtools)。
+如果你觉得还想尝试新的 可以用用官方的
 
 它的问题是：
 - isolate 组件不能展现 `严重`
