@@ -25,7 +25,7 @@
         element.__regularUI = this;
     }
 ```
-2. [chrome 应用商店下载](https://chrome.google.com/webstore/detail/regularjs%E7%BB%84%E4%BB%B6%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7-sidebar/edokagnjighamigibdkaflgddjnakhkj?hl=zh-CN)
+2. [chrome 应用商店下载插件](https://chrome.google.com/webstore/detail/regularjs%E7%BB%84%E4%BB%B6%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7-sidebar/edokagnjighamigibdkaflgddjnakhkj?hl=zh-CN)
 
 
 ## 优点
