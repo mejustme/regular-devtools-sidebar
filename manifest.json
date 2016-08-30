@@ -1,6 +1,6 @@
 {
   "name": "RegularJS组件调试工具-sidebar",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "扩展控制台，方便Regular应用的调试",
   "background": {
     "persistent": true,
