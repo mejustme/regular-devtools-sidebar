@@ -56,9 +56,9 @@
 如果你觉得还想尝试新的 可以用用官方的[Regular-devtools](https://github.com/regularjs/regular-devtools)。
 
 它的问题是：`解决中`
-- isolate 组件不能展现
-- 不能直接定位到嵌套组件，需要手动层层查找
-- 目前只支持data数据展示 且 data属性不支持修改
+- ~~isolate 组件不能展现~~
+- ~~不能直接定位到嵌套组件，需要手动层层查找~~
+- ~~目前只支持data数据展示 且 data属性不支持修改~~
 
 优点：
 - 视图更新后，数据展示自动更新 (本插件，要手动切换下sidebar)
